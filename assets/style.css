@@ -1,0 +1,16 @@
+
+#titleheader {
+    font: 100% Georgia, "Times New Roman", Times, serif;
+    font-size: 2em;    
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.subheader {
+    font: 100% Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5em;
+}
+
+p {
+    text-indent: 3%; 
+}
