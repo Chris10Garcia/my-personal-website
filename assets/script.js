@@ -36,7 +36,6 @@ document.addEventListener('click', function(e){
         e.target.parentElement.parentElement.lastElementChild.style.display = blockResult
     
     } else if(result === "BUTTON"){
-        console.log(e.target.parentElement.lastElementChild)
         let block = e.target.parentElement.lastElementChild.style.display
         const blockResult = tester(block)
         e.target.parentElement.lastElementChild.style.display = blockResult

@@ -1,5 +1,7 @@
 body {
     background-color: lightslategray;
+    max-width: 65%;
+    margin: auto;   
 }
 
 
@@ -44,17 +46,30 @@ nav {
     padding:1%;
     margin-left: 5px;
     margin-right: 5px;
-    background: none;
+    background-color: slategrey;
+    color: white;
     cursor: pointer;
+    border-radius: 5px;
     
 }
 
 .collapsible:hover {
     background-color: lightgray;
+    color: black;
 }
 
 .content {
     display: block;
-    transition: max-height 0.2s ease-out;
 }
 
+#sbu, #mta {
+    margin: 5px;
+    vertical-align: top;
+    float: right;
+}
+
+
+#thankyou {
+    vertical-align: top;
+
+}
