@@ -64,8 +64,8 @@ nav {
 
 #sbu, #mta {
     margin: 5px;
-    vertical-align: top;
-    float: right;
+    vertical-align: bottom;
+    /* float: right; */
 }
 
 
